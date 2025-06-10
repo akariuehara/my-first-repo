@@ -1,0 +1,30 @@
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  margin: 40px;
+}
+
+.flex-container {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  align-items: flex-start; /* stretch, flex-start, flex-end に変えて確認 */
+  justify-content: flex-end;
+  flex-direction: row; /* ← row or column を切り替える */
+}
+
+.item {
+  border: 1px solid blue;
+  padding: 20px;
+  background-color: #f0f8ff;
+  margin: 5px;
+}
+
+.fixed {
+  width: 200px;
+}
+.flexible1 {
+  flex: 3;
+}
+.flexible2 {
+  flex: 2;
+}
